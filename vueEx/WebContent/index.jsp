@@ -52,7 +52,7 @@
 			el: '#sty',
 			data : {
 				styleObject: {
-				    color: 'red',
+				    color: 'blue',
 				    fontSize: '13px'
 				  }
 			}
