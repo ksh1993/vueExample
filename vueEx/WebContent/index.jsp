@@ -31,16 +31,16 @@
 			  el: '#example-1',
 			  data: {
 			    items: [
-			      { message: 'Foo' },
-			      { message: 'Bar' }
+			      { message: 'PAST' },
+			      { message: 'PRESENT' }
 			    ]
 			  }
 			})
 		var vm = new Vue({
 			  el: '#demo',
 			  data: {
-			    firstName: 'Foo',
-			    lastName: 'Bar'
+			    firstName: 'PAST',
+			    lastName: 'PRESENT'
 			  },
 			  computed: {
 			    fullName: function () {
